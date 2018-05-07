@@ -9,7 +9,7 @@ classifiers = ["Development Status :: 5 - Production/Stable",
                "Programming Language :: Python :: 2.7",
                "Programming Language :: Python :: 3.2",
                "Programming Language :: Python :: 3.3",
-               "Programming Language :: Python :: Implementation :: PyPy"]   
+               "Programming Language :: Python :: Implementation :: PyPy"]
 
 setup(name='timestring',
       version=version,
@@ -25,5 +25,5 @@ setup(name='timestring',
       packages=['timestring'],
       include_package_data=True,
       zip_safe=True,
-      install_requires=["pytz==2013b"],
+      install_requires=["pytz==2018.4"],
       entry_points={'console_scripts': ['timestring=timestring:main']})
